@@ -1,0 +1,42 @@
+[
+  {
+    "company_url": "https:\/\/altayer.medallia.eu\/altayer\/",
+    "company_name": "Altayer",
+    "request_time": 1424379931542,
+    "surveys_per_hour": 0,
+    "total_surveys": 7680,
+    "warning": [
+      "surveys_per_hour"
+    ]
+  },
+  {
+    "company_url": "https:\/\/falabella.medallia.com\/falabella\/",
+    "company_name": "Falabella",
+    "request_time": 1424473437762,
+    "surveys_per_hour": 1377.4885371986,
+    "total_surveys": 105522,
+    "warning": [
+      "surveys_per_hour"
+    ]
+  },
+  {
+    "company_url": "https:\/\/o2.medallia.eu\/o2\/",
+    "company_name": "O2",
+    "request_time": 1424277968127,
+    "surveys_per_hour": 308.68632185879,
+    "total_surveys": 10707351,
+    "warning": [
+      "surveys_per_hour"
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/westernunion\/",
+    "company_name": "Western Union",
+    "request_time": 1424282467894,
+    "surveys_per_hour": 0,
+    "total_surveys": 352869,
+    "warning": [
+      "surveys_per_hour"
+    ]
+  }
+]

@@ -1,0 +1,948 @@
+[
+  {
+    "company_url": "https:\/\/avisbudget.medallia.com\/abg\/",
+    "company_name": "Avis Budget Group",
+    "tagged_delay_in_mins": 7,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 377,
+    "num_unique_words": 103193,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/express.medallia.com\/accor\/",
+    "company_name": "Accor Hotels",
+    "tagged_delay_in_mins": 293033,
+    "tagging_needed_queue_size": 12,
+    "tagging_failed_count": 0,
+    "num_unique_words": 106077,
+    "warnings": [
+      "tagged_delay_in_mins"
+    ]
+  },
+  {
+    "company_url": "https:\/\/login5.medallia.com\/activision\/",
+    "company_name": "activision",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 39458,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login8.medallia.com\/aetnanav\/",
+    "company_name": "Aetna Navigator",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 52394,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/ag\/",
+    "company_name": "A&G Insurance",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 19341,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/airbnb.medallia.com\/airbnb\/",
+    "company_name": "Airbnb",
+    "tagged_delay_in_mins": 9,
+    "tagging_needed_queue_size": 17,
+    "tagging_failed_count": 1,
+    "num_unique_words": 81546,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/altayer.medallia.eu\/altayer\/",
+    "company_name": "Altayer",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 8273,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login6.medallia.com\/amexctn\/",
+    "company_name": "American Express Consumer Travel Network",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 44980,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login2.medallia.com\/aos\/",
+    "company_name": "Apple Telesales",
+    "tagged_delay_in_mins": 2,
+    "tagging_needed_queue_size": 2,
+    "tagging_failed_count": 1,
+    "num_unique_words": 127481,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login7.medallia.com\/apollo\/",
+    "company_name": "Apollo",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 44976,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login2.medallia.com\/appleapac\/",
+    "company_name": "Apple APAC",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 10865,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login2.medallia.com\/appleenp\/",
+    "company_name": "Apple ENP",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 85956,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login2.medallia.com\/appleretail\/",
+    "company_name": "Apple Retail",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 88,
+    "num_unique_words": 250813,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/asb.medallia.eu\/asb\/",
+    "company_name": "ASB",
+    "tagged_delay_in_mins": 4,
+    "tagging_needed_queue_size": 2,
+    "tagging_failed_count": 0,
+    "num_unique_words": 16024,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/audiinsight.medallia.com\/audi\/",
+    "company_name": "Audi",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 2,
+    "num_unique_words": 55851,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/axa.medallia.eu\/axa\/",
+    "company_name": "AXA",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 35339,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/express.medallia.com\/base\/",
+    "company_name": "Basic Hotel Package",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 29847,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/bcbsm.medallia.com\/bcbsm\/",
+    "company_name": "BCBSM",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 13896,
+    "tagging_failed_count": 230,
+    "num_unique_words": 272522,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/beeline.medallia.com\/beeline\/",
+    "company_name": "Beeline",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 121486,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/express.medallia.com\/bestwestern\/",
+    "company_name": "Best Western",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 27,
+    "tagging_failed_count": 1,
+    "num_unique_words": 299351,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login12.medallia.com\/bloomingdales\/",
+    "company_name": "Bloomingdale's",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 50798,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login4.medallia.com\/bluegreen\/",
+    "company_name": "Bluegreen",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 19134,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/ca.medallia.com\/ca\/",
+    "company_name": "CA",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 16531,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/canda.medallia.eu\/canda\/",
+    "company_name": "C & A",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 11,
+    "tagging_failed_count": 0,
+    "num_unique_words": 54830,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/capitalone.medallia.com\/capitalone\/",
+    "company_name": "Capital One",
+    "tagged_delay_in_mins": 3,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 96086,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login5.medallia.com\/carlson\/",
+    "company_name": "Carlson Hotels Worldwide",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 6,
+    "tagging_failed_count": 4,
+    "num_unique_words": 175084,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login4.medallia.com\/carnivaltgem\/",
+    "company_name": "Carnival Cruise Lines",
+    "tagged_delay_in_mins": 5,
+    "tagging_needed_queue_size": 12,
+    "tagging_failed_count": 5,
+    "num_unique_words": 230988,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login3.medallia.com\/choice\/",
+    "company_name": "Choice Hotels",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 16,
+    "tagging_failed_count": 4,
+    "num_unique_words": 266983,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login7.medallia.com\/cox\/",
+    "company_name": "Cox Communications",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 89217,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/deltahotels\/",
+    "company_name": "Delta Hotels",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 42509,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login7.medallia.com\/extendedstay\/",
+    "company_name": "Extended Stay Hotels",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 49176,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/falabella.medallia.com\/falabella\/",
+    "company_name": "Falabella",
+    "tagged_delay_in_mins": 2,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 2505,
+    "num_unique_words": 16889,
+    "warnings": [
+      "tagging_failed_count"
+    ]
+  },
+  {
+    "company_url": "https:\/\/farmers.medallia.com\/farmers\/",
+    "company_name": "Farmers",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 25844,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login5.medallia.com\/fourseasons\/",
+    "company_name": "Four Seasons Hotels and Resorts",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 76499,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/foxtel.medallia.com\/foxtel\/",
+    "company_name": "Foxtel",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 11375,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/foxwoods\/",
+    "company_name": "Foxwoods",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 32543,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/g6.medallia.com\/g6hospitality\/",
+    "company_name": "G6 Hospitality",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 2,
+    "tagging_failed_count": 0,
+    "num_unique_words": 47140,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/gap.medallia.com\/gap\/",
+    "company_name": "gap",
+    "tagged_delay_in_mins": 6,
+    "tagging_needed_queue_size": 6,
+    "tagging_failed_count": 0,
+    "num_unique_words": 43232,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/gecapital\/",
+    "company_name": "GE Capital",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 16134,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login3.medallia.com\/gehealthcare\/",
+    "company_name": "gehealthcare",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 15,
+    "tagging_failed_count": 2,
+    "num_unique_words": 22487,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/express.medallia.com\/goldsgym\/",
+    "company_name": "Gold's Gym",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 22024,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/hhc.medallia.com\/hilton\/",
+    "company_name": "Hilton Hotel Corporation",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 2087,
+    "tagging_failed_count": 7,
+    "num_unique_words": 234397,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/wellsfargo.medallia.com\/homelendingebusiness\/",
+    "company_name": "Home Lending eBusiness",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 1,
+    "tagging_failed_count": 0,
+    "num_unique_words": 10845,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/hotelexp\/",
+    "company_name": "Hotel Express",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 11,
+    "tagging_failed_count": 2,
+    "num_unique_words": 111846,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/jumeirah.medallia.com\/jumeirah\/",
+    "company_name": "Jumeirah",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 89057,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/express.medallia.com\/laquinta\/",
+    "company_name": "La Quinta",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 7,
+    "tagging_failed_count": 0,
+    "num_unique_words": 68803,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login7.medallia.com\/legoproduct\/",
+    "company_name": "legoproduct",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 76094,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login5.medallia.com\/legoretail\/",
+    "company_name": "Lego Retail",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 38903,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/lexussurvey.medallia.com\/lexus\/",
+    "company_name": "Lexus",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 33490,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login4.medallia.com\/lhw\/",
+    "company_name": "Leading Hotels",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 89792,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login12.medallia.com\/logistics\/",
+    "company_name": "Macy's Logistics",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 59717,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login12.medallia.com\/macys\/",
+    "company_name": "Macy's",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 2,
+    "num_unique_words": 198999,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/marriott.medallia.com\/marriott\/",
+    "company_name": "Marriott",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 21,
+    "tagging_failed_count": 1885,
+    "num_unique_words": 284614,
+    "warnings": [
+      "tagging_failed_count"
+    ]
+  },
+  {
+    "company_url": "https:\/\/mercedes.medallia.com\/mbusa\/",
+    "company_name": "Mercedes Benz USA",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 4,
+    "num_unique_words": 70995,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login12.medallia.com\/mccs\/",
+    "company_name": "Macy's Credit Card Services",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 50560,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login7.medallia.com\/medibank\/",
+    "company_name": "Medibank Private Limited",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 38437,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/medifast\/",
+    "company_name": "Medifast",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 19592,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/macysinc.medallia.com\/mycustomer\/",
+    "company_name": "Macysinc-Mycustomer",
+    "tagged_delay_in_mins": 12,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 139089,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login8.medallia.com\/nordstrom\/",
+    "company_name": "Nordstrom",
+    "tagged_delay_in_mins": 5,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 41502,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/o2.medallia.eu\/o2\/",
+    "company_name": "O2",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 67992,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/express.medallia.com\/omni\/",
+    "company_name": "Omni Hotels",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 2,
+    "tagging_failed_count": 0,
+    "num_unique_words": 82496,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login3.medallia.com\/paypal\/",
+    "company_name": "PayPal",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 155,
+    "tagging_failed_count": 1,
+    "num_unique_words": 291137,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login8.medallia.com\/pwc\/",
+    "company_name": "PWC",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 11526,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/radioshack\/",
+    "company_name": "RadioShack",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 6,
+    "tagging_failed_count": 0,
+    "num_unique_words": 60498,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login4.medallia.com\/rccl\/",
+    "company_name": "Royal Caribbean Cruise Lines",
+    "tagged_delay_in_mins": 7,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 162156,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/report1.medallia.com\/recruiting\/",
+    "company_name": "Recruiting",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 2540,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/regis\/",
+    "company_name": "Regis",
+    "tagged_delay_in_mins": 6,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 38995,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/sage.medallia.eu\/sage\/",
+    "company_name": "Sage",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 30145,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login8.medallia.com\/selectcomfort\/",
+    "company_name": "Select Comfort",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 39183,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login2.medallia.com\/sephoraretail\/",
+    "company_name": "Sephora",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 27910,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/shell\/",
+    "company_name": "Shell",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 32228,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/sodimac.medallia.com\/sodimac\/",
+    "company_name": "Sodimac",
+    "tagged_delay_in_mins": 9,
+    "tagging_needed_queue_size": 12,
+    "tagging_failed_count": 51,
+    "num_unique_words": 102784,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/sunrise.medallia.eu\/sunrise\/",
+    "company_name": "Sunrise",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 3,
+    "num_unique_words": 114498,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/swisslife.medallia.eu\/swisslife\/",
+    "company_name": "SwissLife",
+    "tagged_delay_in_mins": 6,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 3380,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/telenor.medallia.eu\/telenor\/",
+    "company_name": "Telenor",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 53109,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login8.medallia.com\/telstra\/",
+    "company_name": "Telstra",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 25,
+    "num_unique_words": 150768,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login5.medallia.com\/thermofisher\/",
+    "company_name": "Thermo Fisher Scientific",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 2,
+    "num_unique_words": 45797,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/tiaa-cref.medallia.com\/tiaacref\/",
+    "company_name": "TIAA-CREF",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 19969,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/toyota.medallia.com\/tms\/",
+    "company_name": "Toyota Motor Sales",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 4,
+    "num_unique_words": 145063,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login12.medallia.com\/valueplace\/",
+    "company_name": "Value Place",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 11088,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/vanguard.medallia.com\/vanguard\/",
+    "company_name": "Vanguard",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 2839,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login12.medallia.com\/verizon\/",
+    "company_name": "Verizon",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 30687,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/login14.medallia.com\/westernunion\/",
+    "company_name": "Western Union",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 2,
+    "tagging_failed_count": 1,
+    "num_unique_words": 40443,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/windstream.medallia.com\/windstream\/",
+    "company_name": "Windstream",
+    "tagged_delay_in_mins": 6,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 30032,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/zurichnps.medallia.com\/zurich\/",
+    "company_name": "Zurich",
+    "tagged_delay_in_mins": 1,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 0,
+    "num_unique_words": 9305,
+    "warnings": [
+      
+    ]
+  },
+  {
+    "company_url": "https:\/\/zurich.medallia.eu\/zurich\/",
+    "company_name": "Zurich Insurance",
+    "tagged_delay_in_mins": 0,
+    "tagging_needed_queue_size": 0,
+    "tagging_failed_count": 1,
+    "num_unique_words": 36962,
+    "warnings": [
+      
+    ]
+  }
+]

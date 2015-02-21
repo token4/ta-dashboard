@@ -1,0 +1,225 @@
+<html>
+<head>
+	<title>TA Dashboard</title>
+</head>
+<body>
+
+<h2 class="h2 txt-center"> Text Analytics Status Dashboard </h2>
+
+<br>
+<br>
+
+<p>
+
+The oldest parsing status on this page was retrieved at $last_checked$ US Pacific Time.
+</p>
+
+<br>
+<br>
+
+<h3 class="h3 txt-center"> Historically tagged surveys </h3>
+
+<table class="ta_dashboard_table-ruled tablesorter">
+<thead>
+<tr class="no-arrows">
+<th class="sorter-false"> Auto Last 1 day</th>
+<th class="sorter-false"> Auto Last 7 days</th>
+<th class="sorter-false"> Auto Last 30 days</th>
+<th class="sorter-false"> Manual Last 1 day</th>
+<th class="sorter-false"> Manual Last 7 days</th>
+<th class="sorter-false"> Manual Last 30 days</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> $num_surveys_tagged.AUTOMATIC.(1)$</td>
+<td> $num_surveys_tagged.AUTOMATIC.(7)$ </td>
+<td> $num_surveys_tagged.AUTOMATIC.(30)$ </td>
+<td> $num_surveys_tagged.MANUAL.(1)$ </td>
+<td> $num_surveys_tagged.MANUAL.(7)$ </td>
+<td> $num_surveys_tagged.MANUAL.(30)$ </td>
+</tr>
+</tbody>
+</table>
+
+<br>
+<br>
+
+<h3 class="h3 txt-center"> Recent Manual Parsing Tasks </h3>
+<table class="ta_dashboard_table-ruled tablesorter">
+<thead>
+<tr class="no-arrows go-down">
+  <th style="text-align:center;" colspan="6" class="sorter-false"></th>
+  <th style="text-align:center;" colspan="2" class="sorter-false">Progress (%)</th>
+  <th style="text-align:center;" colspan="2" class="sorter-false">Completion Time</th>
+  <th style="text-align:center;" colspan="1" class="sorter-false"></th>
+</tr>
+
+<tr class="sorting">
+  <th class="ta-manu-header-instance">
+    Instance
+  </th>
+  <th class="ta-manu-header-company">  
+    Company
+  </th>
+  <th class="ta-manu-header-status" title="$manual_status_description$">
+    Status
+  </th>
+  <th class="ta-manu-header-restart">
+  	Start Time (Restart Time)
+  </th>
+  <th class="ta-manu-header-speed">
+    Speed (Per Hour)
+  </th>
+  <th class="ta-manu-header-total">
+    	Total # of Surveys
+  </th>
+  <th class="ta-manu-header-expectedCompleted">
+  	    Target
+  </th>
+  <th class="ta-manu-header-actualCompleted">
+    	Actual
+  </th>
+  <th class="ta-manu-header-expectedEta">
+    	Target
+  </th>
+  <th class="ta-manu-header-eta">
+  	    Actual (ETA)
+  </th>
+  <th class="ta-manu-header-remark">
+    Remark
+  </th>
+</tr>
+</thead>
+<tbody>
+$manual_info:{mi|
+  <tr>
+	<td class="ta-manu-instance">
+		<a href="$mi.instance.detailedTaStatusUrl$">$mi.instanceName$</a> 
+	</td>
+	<td class="ta-manu-company">
+		<a href="$mi.surveyTaggingUrl$">$mi.company$</a>
+	</td>
+	<td class="ta-manu-status $mi.colorStatus$" title="$mi.colorStatus.details$">
+		$mi.colorStatus.statusString$
+	</td>
+	<td class="ta-manu-elapsed">
+  		$mi.startTime$
+  	</td>
+  	<td class="ta-manu-speed">
+  		$mi.speed$
+  	</td>
+  	<td class="ta-manu-total">
+      		$mi.totalRecords$
+    </td>
+    <td class="ta-manu-expectedCompleted">
+        $mi.expectedPercentageComplete$
+    </td>
+  	<td class="ta-manu-actualCompleted">
+  		$mi.percentageComplete$
+  	</td>
+  	<td class="ta-manu-expectedEta">
+      	$mi.expectedCompletionTime$
+    </td>
+  	<td class="ta-manu-eta">
+  		$mi.completionTime$
+  	</td>
+    <td class="ta-manu-remark">
+      $mi.remark$
+    </td>
+  </tr>
+}$
+</tbody>
+</table>
+
+<br><br><br>
+
+<h3 class="h3 txt-center"> Auto Tagging Status </h3>
+<table class="ta_dashboard_table-ruled tablesorter">
+<thead>
+<tr class="sorting">
+  <th class="ta-auto-header-instance">
+    Instance
+  </th>
+  <th class="ta-auto-header-company">  
+    Company
+  </th>
+  <th class="ta-auto-header-status" title="$auto_status_description$">
+    Status
+  </th>
+  <th class="ta-auto-header-delay">
+    Delay (Approx.)
+  </th>
+  <th class="ta-auto-header-remaining">
+    Records to be Tagged
+  </th>
+  <th class="ta-auto-header-failed">
+    Tagging Failed Records
+  </th>
+  <th class="ta-auto-header-backfill">
+  	Backfill in Progress
+  </th>
+  <th class="ta-auto-header-wordlist">
+  	Slug Word Limit
+  </th>
+  <th class="ta-manu-header-remark">
+      Remark
+  </th>
+</tr>
+</thead>
+<tbody>
+$auto_info:{ai|
+  <tr>
+	<td class="ta-auto-instance">
+		<a href="$ai.instance.detailedTaStatusUrl$">$ai.instanceName$</a> 
+	</td>
+	<td class="ta-auto-company">
+		<a href="$ai.surveyTaggingUrl$">$ai.company$</a>
+	</td>
+	<td class="ta-auto-status $ai.colorStatus$" title="$ai.colorStatus.details$">
+		$ai.colorStatus.statusString$
+	</td>
+	<td class="ta-auto-delay">
+		$ai.taggedDelay$
+	</td>
+	<td class="ta-auto-remaining">
+		$ai.remainingRecords$
+	</td>
+	<td class="ta-auto-failed">
+		$ai.failedRecords$
+	</td>
+	<td class="ta-auto-backfill">	
+		$if(ai.isBackFillInProgress)$
+		Yes
+		$endif$
+	</td>
+	<td class="ta-auto-wordlist $ai.slugWordLimitExceeded$">	
+		$if(ai.slugWordLimitExceeded)$
+		Exceeded
+		$endif$
+	</td>
+	<td class="ta-auto-remark">
+          $ai.remark$
+    </td>
+  </tr>
+}$
+</tbody>
+</table>
+
+<br><br><br>
+
+<br><br><br>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.5/js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript">
+\$(document).ready(function() 
+	{ 
+        \$(".ta_dashboard_table-ruled").tablesorter(); 
+    } 
+); 
+</script>
+
+</body>
+
+</html>

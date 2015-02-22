@@ -3,7 +3,7 @@
 	<title>TA Dashboard</title>
   <link rel="stylesheet" type ="text/css" href="src/css/bootstrap.min.css" />
 </head>
-<body>
+<body ng-app="TAstatus">
 
 <h2 class="h2 txt-center"> Text Analytics Status Dashboard </h2>
 
@@ -44,8 +44,11 @@ The oldest parsing status on this page was retrieved at $last_checked$ US Pacifi
 
 <br>
 <br>
-
+<div ng-controller="ManualController as manual">
 <h3 class="h3 txt-center"> Recent Manual Parsing Tasks </h3>
+<button type="button" ng-click="manual.hideCompleted=!manual.hideCompleted" class="btn-info btn-xs">
+    {{manual.hideCompleted ? "Show Completed Tasks" : "Hide Completed Tasks"}}
+  </button>
 <table class="ta_dashboard_table-ruled tablesorter">
 <thead>
 <tr class="no-arrows go-down">
@@ -56,14 +59,8 @@ The oldest parsing status on this page was retrieved at $last_checked$ US Pacifi
 </tr>
 
 <tr class="sorting">
-  <th class="ta-manu-header-instance">
-    Instance
-  </th>
   <th class="ta-manu-header-company">  
     Company
-  </th>
-  <th class="ta-manu-header-status" title="$manual_status_description$">
-    Status
   </th>
   <th class="ta-manu-header-restart">
   	Start Time (Restart Time)
@@ -92,31 +89,27 @@ The oldest parsing status on this page was retrieved at $last_checked$ US Pacifi
 </tr>
 </thead>
 <tbody>
-$manual_info:{mi|
-  <tr>
-	<td class="ta-manu-instance">
-		<a href="$mi.instance.detailedTaStatusUrl$">$mi.instanceName$</a> 
-	</td>
+
+  <tr ng-repeat="company in manual.manualStats" ng-hide="company.is_completed && manual.hideCompleted">
 	<td class="ta-manu-company">
-		<a href="$mi.surveyTaggingUrl$">$mi.company$</a>
-	</td>
-	<td class="ta-manu-status $mi.colorStatus$" title="$mi.colorStatus.details$">
-		$mi.colorStatus.statusString$
+    <!-- Need to make the background color based on company-->
+		<a href="{{company.company_url}}">{{company.company_name}}</a>
 	</td>
 	<td class="ta-manu-elapsed">
-  		$mi.startTime$
+  		{{company.initial_request_time | date:"MM-dd-yyyy 'at' h:mma"}}
   	</td>
   	<td class="ta-manu-speed">
-  		$mi.speed$
+      <!--Change this to an angular/bootstrap progress bar-->
+  		{{company.surveys_per_hour | number: 0}}
   	</td>
   	<td class="ta-manu-total">
       		$mi.totalRecords$
     </td>
     <td class="ta-manu-expectedCompleted">
-        $mi.expectedPercentageComplete$
+    {{company.expected_percent_complete}}
     </td>
   	<td class="ta-manu-actualCompleted">
-  		$mi.percentageComplete$
+  		A{{company.actual_percent_complete}}SEF
   	</td>
   	<td class="ta-manu-expectedEta">
       	$mi.expectedCompletionTime$
@@ -128,10 +121,10 @@ $manual_info:{mi|
       $mi.remark$
     </td>
   </tr>
-}$
 </tbody>
 </table>
-
+</div>
+<!--End of Manual Status Block-->
 <br><br><br>
 
 <h3 class="h3 txt-center"> Auto Tagging Status </h3>
@@ -213,9 +206,9 @@ $auto_info:{ai|
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.5/js/jquery.tablesorter.min.js"></script>
 <script type="text/javascript">
-\$(document).ready(function() 
+$(document).ready(function() 
 	{ 
-        \$(".ta_dashboard_table-ruled").tablesorter(); 
+        $(".ta_dashboard_table-ruled").tablesorter(); 
     } 
 ); 
 </script>

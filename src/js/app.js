@@ -10,10 +10,13 @@
 		for (i=0; i<this.manualStats.length; i++) {
 			var company = this.manualStats[i];
 			var minsElapsed = (new Date().getTime() - new Date(company.initial_request_time).getTime()) / (1000 * 60);
-			console.log(minsElapsed);
 			var expectedSurveysProcessed = minsElapsed * 100000/60;
-			company.expected_percent_complete = expectedSurveysProcessed / company.total_surveys_requested;
-			company.actual_percent_complete = company.total_surveys_processed / company.total_surveys_requested;
+			var percentComplete1 = Math.min(expectedSurveysProcessed, company.total_surveys_processed)/company.total_surveys_requested * 100;
+			company.percent_complete_1 = Math.floor(percentComplete1).toString() + '%';
+			var percentComplete2 = Math.max(expectedSurveysProcessed, company.total_surveys_processed)/company.total_surveys_requested * 100 - percentComplete1;
+			company.percent_complete_2 = Math.floor(percentComplete2).toString() + '%';
+			company.exceeding_expected = expectedSurveysProcessed < company.total_surveys_processed;
+
 		}
 
 	});

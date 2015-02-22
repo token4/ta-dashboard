@@ -2,6 +2,7 @@
 <head>
 	<title>TA Dashboard</title>
   <link rel="stylesheet" type ="text/css" href="src/css/bootstrap.min.css" />
+  <link rel="stylesheet" type ="text/css" href="src/css/styles.css" />
 </head>
 <body ng-app="TAstatus">
 
@@ -101,6 +102,15 @@ The oldest parsing status on this page was retrieved at $last_checked$ US Pacifi
   	<td class="ta-manu-speed">
       <!--Change this to an angular/bootstrap progress bar-->
   		{{company.surveys_per_hour | number: 0}}
+      {{company.percent_complete_1}}
+      <div class="progress">
+  <div ng-class="{'progress-bar progress-bar-striped progress-bar-success active' : company.exceeding_expected, 'progress-bar progress-bar-striped progress-bar-danger active' : !company.exceeding_expected}" ng-style="{ 'width': company.percent_complete_1 }"></div>
+ <div ng-class="{'progress-bar progress-bar-striped' : true}" style="width: 1%"></div>
+ <div ng-class="{'progress-bar progress-bar-striped progress-bar-success active' : company.exceeding_expected, 'progress-bar progress-bar-striped progress-bar-danger active' : !company.exceeding_expected}" ng-style="{ 'width': company.percent_complete_2 }"></div>
+  <div ng-class="{'progress-bar progress-bar-striped' : true}" style="width: 1%"></div>
+
+  </div>
+</div>
   	</td>
   	<td class="ta-manu-total">
       		$mi.totalRecords$
@@ -109,7 +119,7 @@ The oldest parsing status on this page was retrieved at $last_checked$ US Pacifi
     {{company.expected_percent_complete}}
     </td>
   	<td class="ta-manu-actualCompleted">
-  		A{{company.actual_percent_complete}}SEF
+  		{{company.actual_percent_complete}}
   	</td>
   	<td class="ta-manu-expectedEta">
       	$mi.expectedCompletionTime$
